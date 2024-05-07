@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Compiler App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <div class="compiler-app">
+        <h1>Online Code Compiler</h1>
+        <form id="code-form">
+            <textarea id="code-input" placeholder="Enter your code here..." rows="10" cols="50"></textarea>
+            <select id="language-select">
+                <option value="cpp">C++</option>
+                <option value="c">C</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+            <button type="button" id="compile-button">Compile</button>
+
+        </form>
+        <div id="output-section">
+            <h2>Output</h2>
+            <pre id="output-display"></pre>
+        </div>
+    </div>
+
+    <script src="main.js"></script> <!-- Link to JavaScript -->
+</body>
+</html>
